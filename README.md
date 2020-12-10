@@ -10,7 +10,7 @@
 virtualenv -p python3 venv
 
 # Activate the virtual environment
- ./venv/Scripts/activate
+./venv/Scripts/activate
 
 # Install dependencies
 pip3 install -r requirements.txt
@@ -28,8 +28,9 @@ flask run
 
 - ### `POST /sortedText`
     - Request Parameters
-        - text : The text to be censored
+        - text : The text to be sorted
     - Sample Request
+        Recommended client: Advamced REST CLient
         ```HTTP
         POST /sortedText HTTP/1.1
         Host: localhost:5000
