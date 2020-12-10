@@ -1,4 +1,4 @@
-# censei-backend
+# AutoSort
 
 > Flask Server to process text and return sorted versions
 
