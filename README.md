@@ -30,8 +30,9 @@ flask run
     - Request Parameters
         - text : The text to be sorted
     - Sample Request
-        Recommended client: Advamced REST CLient
+        
         ```HTTP
+        Recommended client: Advanced REST Client
         POST /sortedText HTTP/1.1
         Host: localhost:5000
         Content-Type: application/json
